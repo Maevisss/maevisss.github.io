@@ -1,0 +1,47 @@
+html {
+    background-color:black;
+    text-align: center;
+    list-style: none;
+     }
+  
+:any-link {
+         text-decoration: none;
+          }
+  
+  .Kopf {
+      margin-left: 0px auto;
+      margin-right: 0px auto;
+      text-align: left;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  .Titel {
+    color:	#8b4500;
+    font-family: Arial;
+    font-size: 4em;
+    margin-left: 0.5em;
+  }
+  
+  .Bild {
+    border: 0.1em;
+    height: 10em;
+    width: 10em;
+  }
+
+  .Beschreibung {
+      color: #8b4500;
+      font-family: Arial;
+      font-size: 2em;
+      margin: auto;
+  }
+
+   .Tabelle {
+    color:	#8b4500;
+    font-family: Arial;
+    font-size: 2em;
+    margin-top: 17em;
+    margin: auto;
+   }
