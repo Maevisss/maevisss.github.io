@@ -2,7 +2,7 @@ Die Schwarzfuchs Default Beatmaps (29.11.2020)
 TV = Openings, nicht Vollversionen des Songs.
 
 2426 - Resonance TV
-14739 - My Soul, Your Beats TV
+16273 - My Soul, Your Beats TV
 17066 - Sign TV
 18021 - Highschool of the Dead TV
 37932 - Light my Fire TV
@@ -44,9 +44,9 @@ TV = Openings, nicht Vollversionen des Songs.
 716211 - Spring Singal
 720129 - Hydra TV
 730452 - Colors TV
-779172 - Superpower
+779173 - Superpower
 791798 - Behind the Walls
-791798 - Little Knight
+791845 - Little Knight
 792241 - Eden
 792396 - The Ballad of a Mindless Girl
 880487 - Peer Gynt
@@ -54,7 +54,7 @@ TV = Openings, nicht Vollversionen des Songs.
 950994 - Faith TV
 1130133 - Ready To TV
 
-53 Beatmaps
+52 Beatmaps
 
 
 Ausstehend (keine passende Version, nicht verfügbar etc.) :
