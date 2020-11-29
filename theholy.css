@@ -3,7 +3,6 @@ html {
     color: #8b4500;
     text-align: center;
     font-family: Arial;
-    list-style-image: none;
      }
 
 :any-link {
@@ -52,6 +51,7 @@ html {
     font-size: 2em;
     margin-top: 10em;
     margin: auto;
+    list-style-image: none;
    }  
    
    .Kontakt {
