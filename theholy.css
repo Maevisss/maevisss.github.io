@@ -1,0 +1,94 @@
+html {
+    background-color:black;
+    color: #8b4500;
+    text-align: center;
+    font-family: Arial;
+     }
+
+:any-link {
+  text-decoration: none;
+}
+  
+  .Kopf {
+      text-align: left;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  .Titel {
+    font-size: 4em;
+    margin-left: 0.5em;
+  }
+  
+  .Bild {
+    border: 0.1em;
+    height: 10em;
+    width: 10em;
+  }
+
+  .Verzeichnis {
+    font-size: 2.5em;
+    margin: auto;
+    margin-top: 0.5em;
+   }
+   
+   .Verzeichnis-Inhalt{
+     font-size: 2em;
+     margin-top: auto;
+     margin-top: 0.5em;
+   }
+
+   .Meldung{
+     font-size: 1em;
+     margin-top: 3em;
+     margin: auto;
+   }
+
+   .Tabelle { 
+    /* Mitglieder */
+    font-size: 2em;
+    margin-top: 10em;
+    margin: auto;
+   }  
+   
+   .Kontakt {
+    /*Kontakt*/
+    font-size: 2.5em;
+    margin-top: 7em;
+    margin: auto;
+  }
+
+  .Text {
+    /*Geschichte*/
+    font-size: 1.5em;
+    margin-top: auto;
+}
+
+ .Beschreibung {
+  /*Gallerie*/
+  font-size: 2em;
+  margin: auto;
+}
+
+.Beschreibung-Airsoft {
+  /*Airsoft*/
+  font-size: 2em;
+  margin-top: 10em;
+  margin: auto;
+ }
+
+ .Tabelle-Airsoft {
+   /*Airsoft*/
+  font-size: 2em;
+  margin-top: 20em;
+  margin: auto;
+ }
+
+ .ASVZ {
+   /*Airsoft*/
+  font-size: 2em;
+  margin-top: 45em;
+  margin: auto;
+ }
