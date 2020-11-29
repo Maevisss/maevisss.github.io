@@ -3,6 +3,7 @@ html {
     color: #8b4500;
     text-align: center;
     font-family: Arial;
+    list-style-image: none;
      }
 
 :any-link {
