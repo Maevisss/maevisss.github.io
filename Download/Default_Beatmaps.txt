@@ -36,7 +36,7 @@ TV = Openings, nicht Vollversionen des Songs.
 486142 - Fright March
 488238 - Classic Pursuit
 489524 - Moonlight Sonata
-527611 - Shelter
+522857 - Shelter
 559248 - Hallelijah Essaim TV
 593602 - Shinzou o Sasageyo TV
 625302 - Los! Los! Los!
@@ -49,12 +49,13 @@ TV = Openings, nicht Vollversionen des Songs.
 791845 - Little Knight
 792241 - Eden
 792396 - The Ballad of a Mindless Girl
+814486 - Myth & Roid Voracity TV
 880487 - Peer Gynt
 948523 - Breeze
 950994 - Faith TV
 1130133 - Ready To TV
 
-52 Beatmaps
+53 Beatmaps
 
 
 Ausstehend (keine passende Version, nicht verfügbar etc.) :
