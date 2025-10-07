@@ -1,0 +1,97 @@
+/* ---------- ALL SITES ---------- */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: #080000;
+  background: linear-gradient(215deg,rgba(8, 0, 0, 1) 0%, rgba(250, 87, 0, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  text-align: center;
+  font-family: 'Comic Sans', Courier, monospace;
+  list-style: square;
+}
+
+:any-link {
+  text-decoration: color-mix(in hsl shorter hue, green 50, red 50);
+}
+
+.Banner {
+  background: #ff00cc;
+ background: linear-gradient(215deg,rgba(255, 0, 204, 1) 0%, rgba(8, 250, 0, 1) 50%, rgba(247, 84, 84, 1) 100%);
+  height: 12;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+}
+
+.Banner-Text {
+  font-size: 8em;
+  text-align: start;
+  margin-left: 0.5em;
+  color: color-mix(in srgb, red 30, cyan 70)
+}
+
+.Banner-Logo {
+  height: 8em;
+  width: 7em;
+}
+
+.Link {
+  font-size: 3.5em;
+  margin-top: 0.5em;
+  color: rgb(0, 61, 56);
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+.Footer {
+  margin-top: 8em;
+  font-size: 1em;
+}
+
+.Home-Link {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  color: rgb(255,255,255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home-Button {
+  filter: invert(80%) sepia(10%) saturate(200%) brightness(1000%) contrast(1000%);
+  height: 8em;
+  width: 5em;
+  border-top: 3em;
+}
+
+
+
+/* ---------- INDIVIDUALISIERUNG ---------- */
+
+/* Macht hier euren scheiß und ändert die Klassen in der Vorlage */
+
+.Vorlage-Bild-SVG {
+    filter: invert(20%) sepia(100%) saturate(100%) brightness(100%) contrast(100%); /*Das nicht wenn Farbig*/
+    height: 7em;
+    width: 7em;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- END OF KONPEKO ---------- */
