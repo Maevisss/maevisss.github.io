@@ -1,0 +1,94 @@
+/* ---------- ALL SITES ---------- */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Arial;
+  list-style: none;
+}
+
+:any-link {
+  text-decoration: none;
+}
+
+.Banner {
+  background: rgb(5, 0, 95);
+  height: 8em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Banner-Text {
+  font-size: 5em;
+  text-align: center;
+  margin-left: 0.5em;
+  color: rgb(255, 255, 255);
+}
+
+.Banner-Logo {
+  height: 7em;
+  width: 7em;
+}
+
+.Link {
+  font-size: 2.5em;
+  margin-top: 0.5em;
+  color: rgb(255,255,255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer {
+  margin-top: 8em;
+  font-size: 1em;
+}
+
+.Home-Link {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  color: rgb(255,255,255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home-Button {
+  filter: invert(100%) sepia(100%) saturate(100%) brightness(100%) contrast(100%);
+  height: 2em;
+  width: 3em;
+  border-top: 3em;
+}
+
+
+
+/* ---------- INDIVIDUALISIERUNG ---------- */
+
+/* Macht hier euren scheiß und ändert die Klassen in der Vorlage */
+
+.Vorlage-Bild-SVG {
+    filter: invert(100%) sepia(100%) saturate(100%) brightness(100%) contrast(100%); /*Das nicht wenn Farbig*/
+    height: 7em;
+    width: 7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- END OF KONPEKO ---------- */
