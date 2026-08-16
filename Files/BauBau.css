@@ -1,16 +1,16 @@
-/* ---------- ALL SITES ---------- */
-
+/* ---------- RESET & BASE ---------- */
 
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
+  background-color: #020c1b;
+  color: #FFFFFF;
   text-align: center;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   list-style: none;
 }
 
@@ -18,173 +18,162 @@ html {
   text-decoration: none;
 }
 
-.Banner {
-  background: rgb(5, 0, 95);
-  height: 8em;
-  text-align: center;
+body {
+  font-size: 1rem;
+}
+
+/* ---------- WRAPPER (AUTO-SCALING DURCH REM/EM) ---------- */
+
+.wrapper {
+  width: min(100%, calc(120vh * 1.6))
+}
+
+/* ---------- HEADER NAVIGATION ---------- */
+
+.container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.Banner-Text {
-  font-size: 5em;
-  text-align: center;
-  margin-left: 0.5em;
-  color: rgb(255, 255, 255);
-}
-
-.Banner-Logo {
-  height: 7em;
-  width: 7em;
-}
-
-.Footer {
-  margin-top: 8em;
-  font-size: 1em;
+  padding: 0.5rem 0.5rem 0; /* Nur oben und seitlich */
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0;
+  margin-bottom: -1rem; /* Entfernt den Spalt durch negatives Margin */
 }
 
 
-/* ---------- INDEX ---------- */
 
-
-.Info-Banner{
-  color: rgb(255, 255, 255);
-  align-items: center;
-  font-size: 1.5em;
-  border-style: dashed;
-  border-color: rgb(255, 0, 0);
-  margin-top: 1em;
-  margin-bottom: 1em;
+.item {
+  flex: 1;
+  min-width: 10rem;
+  background-color: #0a1e2f;
+  border: 0.125rem solid #1a3a5c;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  transition: all 0.3s ease;
 }
 
-.Main-Text {
-  font-size: 2em;
-  margin-top: 0.5em;
+.item:hover {
+  border-color: #00d4ff;
+  transform: translateY(-0.3rem);
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 212, 255, 0.3);
 }
+
+.item a {
+  color:  #a0c4d8;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.item a:hover {
+  color: #FFFFFF;
+}
+
+/* ---------- BANNER / HERO IMAGE ---------- */
+
+/* Banner-Bild: Kein Margin, Block-Element */
+.Banner-Img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  aspect-ratio: 16 / 10;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- DISCORD WIDGET ---------- */
 
 .Discord {
-  margin-top: 3em;
+  margin: 2rem 0;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
+/* ---------- LINK LIST ---------- */
+
 .Link-Div {
-  margin-top: 3em;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .Main-Links {
-  font-size: 1.5em;
-  margin-top: 0.5em;
-  color: rgb(255,255,255);
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.75rem;
+  background-color: #1E1530;
+  border: 0.125rem solid #2D2145;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.Main-Links:hover {
+  border-color: #E63946;
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.25rem 0.75rem rgba(230, 57, 70, 0.3);
 }
 
 .Icons {
-  filter: invert(100%) sepia(100%) saturate(100%) brightness(100%) contrast(100%);
+  filter: invert(1);
   height: 2em;
-  width: 3em;
-  border-top: 3em;
+  width: 2em;
 }
 
-.Copyright {
-  margin-top: 2em;
-  font-size: 1em;
+/* ---------- FOOTER ---------- */
+
+.Footer {
+  margin-top: 4rem;
+  padding: 1.5rem 0;
+  border-top: 0.125rem solid #2D2145;
+  background-color: #0a1e2f;
+  font-size: 0.9rem;
 }
 
+.FooterInhalt {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #C8C4D3;
+}
 
+.Footer p {
+  margin: 0.5rem 0;
+}
 
-/* ---------- ALL EXCEPT INDEX ---------- */
-
-
+/* ---------- PAGES ---------- */
 
 .Home-Link {
-  font-size: 1.5em;
-  margin-top: 0.5em;
-  color: rgb(255,255,255);
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  color: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.5rem;
 }
 
 .Home-Button {
-  filter: invert(100%) sepia(100%) saturate(100%) brightness(100%) contrast(100%);
+  filter: invert(1);
   height: 1.5em;
-  width: 3em;
-  border-top: 3em;
+  width: 2em;
 }
 
-
-
-/* ---------- KONTAKTE UND LINKS ---------- */
-
-
-
 .Link {
-  font-size: 2.5em;
-  margin-top: 0.5em;
-  color: rgb(255,255,255);
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  color: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.5rem;
 }
 
 .Link-Icon {
-  filter: invert(100%) sepia(100%) saturate(100%) brightness(100%) contrast(100%);
+  filter: invert(1);
   height: 2em;
-  width: 3em;
-  border-top: 3em;
+  width: 2em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---------- END OF BAU BAU ---------- */
